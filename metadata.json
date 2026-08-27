@@ -1,0 +1,6 @@
+{
+  "name": "视界滞后 - Observation Lag",
+  "description": "2D 战术潜行射击游戏，支持纯正中英文语言切换、盲区折射瞬移与多战区战役",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

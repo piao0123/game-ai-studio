@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-tactical-mono: ui-monospace, "SF Mono", Monaco, Menlo, Consolas, "Cascadia Code", "Roboto Mono", "PingFang SC", "Microsoft YaHei", "Source Han Sans CN", monospace;
+  }
+
+  html, body, #root {
+    font-family: var(--font-tactical-mono) !important;
+  }
+
+  /* Ensure all inputs, buttons, headings inherit the unified tactical font */
+  input, button, select, textarea, h1, h2, h3, h4, h5, h6, p, span, div {
+    font-family: inherit;
+  }
+}
